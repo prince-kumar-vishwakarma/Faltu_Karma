@@ -1,0 +1,218 @@
+.room-details-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.room-header {
+  margin-bottom: -10px;
+}
+
+.room-header h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--gray-800);
+  margin-bottom: 4px;
+}
+
+.room-header p {
+  font-size: 0.95rem;
+  color: var(--gray-500);
+}
+
+.room-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.room-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 20px;
+}
+
+.room-card {
+  background-color: var(--light);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow);
+  border: 1px solid var(--gray-100);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.room-details-content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  flex-grow: 1;
+}
+
+.roommate-profile {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.roommate-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: var(--radius-full);
+  background-color: var(--gray-200);
+  color: var(--gray-500);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.roommate-avatar svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  vertical-align: middle;
+}
+
+.roommate-info h4 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--gray-800);
+  margin-bottom: 2px;
+}
+
+.roommate-info p {
+  font-size: 0.85rem;
+  color: var(--gray-500);
+}
+
+.amenities-list {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  flex-grow: 1;
+}
+
+.amenity-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 0.9rem;
+  color: var(--gray-700);
+}
+
+.amenity-item i {
+  display: none;
+}
+
+.amenity-item svg {
+  color: var(--primary);
+  width: 1.1rem;
+  height: 1.1rem;
+  min-width: 20px;
+  text-align: center;
+  vertical-align: middle;
+  margin-right: 12px;
+}
+
+.amenity-item span {
+  flex-grow: 1;
+}
+
+.status-badge {
+  padding: 3px 8px;
+  border-radius: var(--radius-full);
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.status-badge.operational {
+  background-color: rgba(16, 185, 129, 0.1);
+  color: var(--success);
+}
+
+.status-badge.issue {
+  background-color: rgba(239, 68, 68, 0.1);
+  color: var(--danger);
+}
+
+.maintenance-timeline {
+  padding: 20px;
+  position: relative;
+  flex-grow: 1;
+}
+
+.maintenance-timeline::before {
+  content: "";
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  bottom: 20px;
+  width: 2px;
+  background-color: var(--gray-200);
+}
+
+.timeline-item {
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 25px;
+}
+
+.timeline-item:last-child {
+  margin-bottom: 0;
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: 14px;
+  top: 5px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: var(--primary);
+  border: 2px solid var(--light);
+  z-index: 1;
+}
+
+.timeline-date {
+  font-size: 0.8rem;
+  color: var(--gray-500);
+  margin-bottom: 5px;
+  position: relative;
+  top: -2px;
+}
+
+.timeline-content h4 {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--gray-700);
+  margin-bottom: 5px;
+}
+
+.timeline-content p {
+  font-size: 0.85rem;
+  color: var(--gray-600);
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+
+.timeline-content .status {
+  padding: 3px 8px;
+  border-radius: var(--radius-full);
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.status.passed {
+  background-color: rgba(16, 185, 129, 0.1);
+  color: var(--success);
+}
+.status.completed {
+  background-color: rgba(14, 165, 233, 0.1);
+  color: var(--accent);
+}

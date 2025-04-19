@@ -1,0 +1,35 @@
+/* Card.css */
+.container {
+    background: linear-gradient(to bottom right, #e6f7ff, #ffffff);
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 0 4px 12px rgba(0, 0, 255, 0.08);
+    text-align: center;
+    transition: transform 0.3s ease;
+    color: #003366;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .container:hover {
+    transform: translateY(-5px);
+  }
+  
+  .icon {
+    font-size: 2.8rem;
+    color: #004080;
+    margin-bottom: 15px;
+  }
+  
+  h3 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #00264d;
+  }
+  
+  p {
+    font-size: 1rem;
+    color: #003366;
+    line-height: 1.5;
+  }
+  

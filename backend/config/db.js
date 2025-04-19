@@ -3,9 +3,7 @@ import dotenv from "dotenv";
 
 dotenv.config();
 
-
 const connectionURI = process.env.MONGODB_URI;
-console.log(connectionURI);
 
 const connectDB = async () => {
   try {
@@ -16,6 +14,5 @@ const connectDB = async () => {
     process.exit(1);
   }
 };
-
 
 export default connectDB;

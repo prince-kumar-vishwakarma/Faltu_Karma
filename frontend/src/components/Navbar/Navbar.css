@@ -1,0 +1,100 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to right, #e0f7ff, #ffffff);
+  padding: 15px 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 255, 0.1);
+  animation: fadeInDown 0.8s ease-out;
+  border-radius: 0 0 20px 20px;
+}
+
+.hostel {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 60px;
+}
+
+.logo {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #cceeff;
+  animation: popIn 0.6s ease-out;
+}
+
+.hostel p {
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: #004080;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: #004080;
+  font-weight: 500;
+  position: relative;
+  transition: color 0.3s;
+}
+
+.navbar li a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background: #004080;
+  left: 0;
+  bottom: -4px;
+  transition: 0.3s;
+}
+
+.navbar li a:hover {
+  color: #007acc;
+}
+
+.navbar li a:hover::after {
+  width: 100%;
+}
+
+.btn {
+  display: flex;
+  gap: 30px;
+  margin-right: 60px;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+
+/* Animations */
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes popIn {
+  from {
+    transform: scale(0.7);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

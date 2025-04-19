@@ -1,35 +1,41 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from "react";
+import Navbar from "./components/Navbar/Navbar";
+import { Router, Routes, Route } from "react-router-dom";
+import About from "./pages/about/About";
+import Contact from "./pages/contact/Contact";
+import Pricing from "./pages/pricing/Pricing";
+import Features from "./pages/features/Features";
+import Home from "./pages/homePage/home";
+//import Header from './components/header/Header';
+//import Footer from './components/Footer/Footer';
+import Privacy from "./pages/privacy/Privacy";
+import Help from "./pages/help/Help";
+import Services from "./pages/servicess/Services";
+import Body from "./components/Body/Body";
+import Body2 from "./components/Body/body2/body2";
+import Login from "./pages/login/Login";
+import Signup from "./pages/signup/Signup";
+import Dashboard from "./pages/dashboard/Dashboard";
 
-function App() {
-  const [count, setCount] = useState(0)
-
+const App = () => {
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <div className="container"></div>
+      <Routes>
+        <Route path="/body2" element={<Body2 />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} /> {/* About Route */}
+        <Route path="/contact" element={<Contact />} /> {/* Contact Route */}
+        <Route path="/pricing" element={<Pricing />} />
+        <Route path="/privacypolicy" element={<Privacy />} />
+        <Route path="/help" element={<Help />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<Signup />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+      </Routes>
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;

@@ -1,0 +1,342 @@
+.payments-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.payments-header {
+  margin-bottom: -10px;
+}
+
+.payments-header h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--gray-800);
+  margin-bottom: 4px;
+}
+
+.payments-header p {
+  font-size: 0.95rem;
+  color: var(--gray-500);
+}
+
+.payments-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.payments-content-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 20px;
+}
+
+.payment-card {
+  background-color: var(--light);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow);
+  border: 1px solid var(--gray-100);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.payment-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  flex-grow: 1;
+}
+
+.payment-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  border-bottom: 1px solid var(--gray-100);
+  transition: background-color 0.2s ease;
+}
+
+.payment-item:last-child {
+  border-bottom: none;
+}
+
+.payment-item:hover {
+  background-color: var(--gray-50);
+}
+
+.payment-info h4 {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--gray-700);
+  margin-bottom: 4px;
+}
+
+.payment-info p {
+  font-size: 0.8rem;
+  color: var(--gray-500);
+}
+
+.payment-amount {
+  text-align: right;
+}
+
+.payment-amount .amount {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--gray-800);
+  display: block;
+  margin-bottom: 4px;
+}
+
+.payment-amount .status {
+  padding: 3px 8px;
+  border-radius: var(--radius-full);
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.status.pending {
+  background-color: rgba(245, 158, 11, 0.1);
+  color: var(--warning);
+}
+.status.paid {
+  background-color: rgba(16, 185, 129, 0.1);
+  color: var(--success);
+}
+.status.included {
+  background-color: rgba(100, 116, 139, 0.1);
+  color: var(--gray-500);
+}
+.status.upcoming {
+  background-color: rgba(14, 165, 233, 0.1);
+  color: var(--accent);
+}
+
+.add-new {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  font-size: 0.9rem;
+  color: var(--primary);
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  padding: 6px 16px;
+  border-radius: var(--radius-full);
+  background-color: rgba(124, 58, 237, 0.08);
+}
+
+.add-new:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: var(--primary-gradient);
+  transition: left 0.3s ease;
+  opacity: 0.15;
+  z-index: -1;
+}
+
+.add-new:hover {
+  color: var(--primary-dark);
+}
+
+.add-new:hover:before {
+  left: 0;
+}
+
+.payment-methods-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.payment-method-card {
+  background-color: var(--light);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--gray-200);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  position: relative;
+}
+
+.payment-method-card:hover {
+  border-color: var(--primary-light);
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+
+.payment-method-card.active {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 2px var(--primary-light);
+}
+
+.payment-method-card .card-body {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.payment-method-icon {
+  width: 2rem;
+  height: 2rem;
+  color: var(--primary);
+  text-align: center;
+}
+.payment-method-icon .fa-university {
+  color: var(--secondary);
+}
+.payment-method-icon .fa-wallet {
+  color: var(--success);
+}
+.payment-method-icon svg {
+  width: 2rem;
+  height: 2rem;
+  vertical-align: middle;
+}
+.payment-method-icon svg.fa-cc-visa {
+  color: var(--primary);
+}
+.payment-method-icon svg.fa-university {
+  color: var(--secondary);
+}
+.payment-method-icon svg.fa-wallet {
+  color: var(--success);
+}
+
+.payment-method-details h4 {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--gray-800);
+  margin-bottom: 2px;
+}
+
+.payment-method-details p {
+  font-size: 0.85rem;
+  color: var(--gray-600);
+  margin-bottom: 4px;
+}
+
+.payment-method-details .expiry {
+  font-size: 0.75rem;
+  color: var(--gray-500);
+}
+
+.default-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: var(--primary);
+  color: var(--light);
+  font-size: 0.65rem;
+  font-weight: 600;
+  padding: 2px 6px;
+  border-radius: var(--radius-sm);
+  text-transform: uppercase;
+}
+
+.add-card .card-body {
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  min-height: 130px;
+  border: 2px dashed var(--gray-300);
+  background-color: var(--gray-50);
+  transition: all 0.3s ease;
+}
+
+.add-card:hover .card-body {
+  border-color: var(--primary);
+  background-color: rgba(124, 58, 237, 0.05);
+}
+
+.add-payment-icon {
+  font-size: 1.5rem;
+  color: var(--primary);
+  margin-bottom: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--primary-light);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--primary);
+}
+.add-payment-icon svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: var(--primary);
+  vertical-align: middle;
+}
+
+.add-card p {
+  font-size: 0.9rem;
+  color: var(--primary);
+  font-weight: 500;
+}
+
+.action-btn {
+  background-color: white;
+  border: 1px solid var(--gray-200);
+  padding: 16px 24px;
+  border-radius: var(--radius);
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: var(--shadow-sm);
+  flex: 1;
+  justify-content: center;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  color: var(--gray-700);
+  z-index: 1;
+}
+
+.action-btn svg {
+  margin-right: 12px;
+  width: 1rem;
+  height: 1rem;
+  vertical-align: middle;
+  transition: transform 0.3s ease;
+  position: relative;
+  z-index: 1;
+}
+
+.action-btn:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: var(--primary-gradient);
+  transition: left 0.3s ease;
+  z-index: -1;
+}
+
+.action-btn:hover {
+  color: white;
+  border-color: var(--primary-dark);
+  box-shadow: var(--shadow-md);
+}
+
+.action-btn:hover:before {
+  left: 0;
+}
+
+.action-btn:hover svg {
+  transform: translateX(3px);
+  color: white;
+}
