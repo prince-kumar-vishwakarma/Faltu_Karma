@@ -1,0 +1,123 @@
+/* Sidebar container */
+.uh-sidebar {
+  width: 250px;
+  height: 100vh;
+  background-color: #ffffff;
+  color: #1e1e2f;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-y: auto;
+  box-shadow: 2px 0 10px #004080;
+}
+
+/* Logo section */
+.uh-sidebar-logo {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-bottom: 1px solid #333;
+}
+
+.uh-sidebar-logo-icon {
+  margin-right: 10px;
+  font-size: 24px;
+  color: #fbb034;
+}
+
+.uh-sidebar-title {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+/* Navigation Menu */
+.uh-sidebar-nav {
+  list-style: none;
+  padding: 20px 0;
+}
+
+/* Section title */
+.uh-sidebar-section {
+  padding: 10px 25px;
+  font-size: 14px;
+  color: rgb(102, 101, 101);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.uh-sidebar-section h1 {
+  font-size: 15px;
+  font-weight: 600;
+  text-align: left;
+}
+
+/* Menu item */
+.uh-sidebar-item {
+  display: flex;
+  align-items: center;
+  padding: 12px 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.uh-sidebar-item a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #1e1e2f;
+  gap: 12px;
+  width: 100%;
+}
+
+.uh-sidebar-item:hover {
+  background-color: #c3dbf3;
+}
+
+.uh-sidebar-item-active {
+  background-color: #d6e9fc;
+}
+
+.uh-sidebar-item svg {
+  font-size: 25px;
+  color: #004080;
+}
+
+.uh-sidebar-item h1,
+.uh-sidebar-item h2 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #1e1e2f;
+}
+
+/* User profile at bottom */
+.uh-sidebar-user {
+  padding: 20px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #444;
+}
+
+.uh-sidebar-user-avatar {
+  background-color: #5da1e6;
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 20px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.uh-sidebar-user-info h4 {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.uh-sidebar-user-info p {
+  font-size: 12px;
+  color: black;
+}

@@ -1,0 +1,85 @@
+/* Main container */
+.pricing-main {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Headings */
+.pricing-header, .pricing-subheader {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.pricing-header h3, .pricing-subheader h3 {
+  font-size: 1.8rem;
+  font-weight:700;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.pricing-header p, .pricing-subheader p {
+  font-size: 1.5rem;
+  color: #666;
+}
+
+/* Card container */
+.pricing-cards {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(270px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+/* Each card wrapper */
+.pricing-card-container {
+  background-color:#2564eb46;
+  padding: 1.5rem;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pricing-card-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Card content */
+.pricing-card {
+  text-align: center;
+}
+
+.pricing-card-logo {
+  display: flex;
+  justify-content: center;
+  gap: 0.6rem;
+  margin-bottom: 1rem;
+}
+
+.pricing-card-heading {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.pricing-card-para {
+  font-size: 0.95rem;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.pricing-card-price {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #28a745;
+  margin-bottom: 0.3rem;
+}
+
+.pricing-card-sem {
+  font-size: 0.85rem;
+  color: #888;
+  margin-bottom: 1rem;
+}

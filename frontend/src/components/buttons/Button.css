@@ -1,0 +1,24 @@
+/* Button.css */
+.button {
+    background-color: #2285c8d7;          /* Blue button */
+    color: white;                       /* White text */
+    padding: 8px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-family: 'Segoe UI', sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 122, 204, 0.2);
+  }
+  
+  .button:hover {
+    background-color: #005fa3;          /* Slightly darker on hover */
+    transform: translateY(-2px);        /* Slight lift */
+  }
+  
+  .button:active {
+    transform: scale(0.98);             /* Press effect */
+  }
+  

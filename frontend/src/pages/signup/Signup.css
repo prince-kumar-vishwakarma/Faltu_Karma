@@ -1,0 +1,141 @@
+/* Signup.css */
+
+.signup-container {
+    background: linear-gradient(to right, #e0f7ff, #ffffff);
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 30px rgba(59, 130, 246, 0.25);
+    width: 60vh;
+    margin: 50px auto;
+  }
+  
+  .signup-header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .signup-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .signup-logo-icon {
+    background-color: #1d4ed8;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .signup-icon {
+    font-size: 48px;
+    color: #ffffff;
+  }
+  
+  .signup-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #2563eb;
+    margin: 0;
+  }
+  
+  .signup-welcome {
+    color: #1e293b;
+    font-size: 20px;
+    margin: 6px 0;
+  }
+  
+  .signup-subtitle {
+    color: #64748b;
+    font-size: 14px;
+    margin-bottom: 24px;
+  }
+  
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .signup-input-group {
+    position: relative;
+    text-align: left;
+  }
+  
+  .signup-label {
+    display: block;
+    font-size: 14px;
+    color: #334155;
+    margin-bottom: 6px;
+    font-weight: 500;
+  }
+  
+  .signup-input {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    background-color: #f9fafb;
+    font-size: 14px;
+    color: #000;
+    transition: border-color 0.3s, background-color 0.3s;
+  }
+  
+  .signup-input:focus {
+    outline: none;
+    border-color: #3b82f6;
+    background-color: #ffffff;
+  }
+  
+  .signup-terms {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 15px;
+    text-align: left;
+  }
+  
+  .signup-checkbox {
+    margin: 0;
+  }
+  
+  .signup-terms-label {
+    color: #334155;
+    font-size: 14px;
+  }
+  
+  .signup-link {
+    color: #3b82f6;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 4px;
+  }
+  
+  .signup-link:hover {
+    text-decoration: underline;
+  }
+  
+  .signup-submit-btn {
+    padding: 12px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(to right, #3b82f6, #1d4ed8);
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .signup-submit-btn:hover {
+    background: linear-gradient(to right, #2563eb, #1e40af);
+  }
+  
+  .signup-login-link {
+    text-align: center;
+    font-size: 14px;
+    color: #64748b;
+    margin-top: 20px;
+  }
+  
