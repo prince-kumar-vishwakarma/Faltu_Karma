@@ -425,7 +425,7 @@ cd frontend && npm run dev
 <td align="center" width="20%">
 <img src="https://avatars.githubusercontent.com/Pavan-Kumar-Vishwakarma?v=4" width="80" height="80" style="border-radius: 40px; border: 3px solid #10B981;"/>
 <br/>
-<div style="background: linear-gradient(135deg, #10B981, #059669); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: 800; font-size: 14px; margin: 8px 0;">PAVAN KUMAR</div>
+<div style="background: linear-gradient(135deg, #10B981, #059669); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: 800; font-size: 14px; margin: 8px 0;">PAVAN KUMAR VISHWAKARMA</div>
 <br/><sub>⚙️ Backend Expert</sub>
 </td>
 <td align="center" width="20%">
@@ -438,7 +438,7 @@ cd frontend && npm run dev
 <img src="https://avatars.githubusercontent.com/u/147483927?v=4" width="80" height="80" style="border-radius: 40px; border: 3px solid #F59E0B;"/>
 <br/>
 <div style="background: linear-gradient(135deg, #F59E0B, #D97706); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: 800; font-size: 14px; margin: 8px 0;">JAYANTIKA PRATIK</div>
-<br/><sub>⚛️ React Developer</sub>
+<br/><sub>💫 Frontend Developer</sub>
 </td>
 <td align="center" width="20%">
 <img src="https://avatars.githubusercontent.com/muskankumari82672?v=4" width="80" height="80" style="border-radius: 40px; border: 3px solid #EF4444;"/>
@@ -472,39 +472,6 @@ cd frontend && npm run dev
 </tr>
 </table>
 
-</div>
-<tr>
-<td align="center" width="25%" style="padding: 0 15px;">
-<div style="background: rgba(255,255,255,0.15); border-radius: 20px; padding: 25px; backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.2);">
-<div style="font-size: 48px; font-weight: 800; color: #FFD700; margin-bottom: 10px;">5</div>
-<div style="font-size: 14px; color: #E0E7FF; font-weight: 600;">👥 TALENTED</div>
-<div style="font-size: 14px; color: #E0E7FF; font-weight: 600;">DEVELOPERS</div>
-</div>
-</td>
-<td align="center" width="25%" style="padding: 0 15px;">
-<div style="background: rgba(255,255,255,0.15); border-radius: 20px; padding: 25px; backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.2);">
-<div style="font-size: 48px; font-weight: 800; color: #10B981; margin-bottom: 10px;">2</div>
-<div style="font-size: 14px; color: #E0E7FF; font-weight: 600;">⏱️ INTENSIVE</div>
-<div style="font-size: 14px; color: #E0E7FF; font-weight: 600;">WEEKS</div>
-</div>
-</td>
-<td align="center" width="25%" style="padding: 0 15px;">
-<div style="background: rgba(255,255,255,0.15); border-radius: 20px; padding: 25px; backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.2);">
-<div style="font-size: 48px; font-weight: 800; color: #3B82F6; margin-bottom: 10px;">25K+</div>
-<div style="font-size: 14px; color: #E0E7FF; font-weight: 600;">💻 LINES OF</div>
-<div style="font-size: 14px; color: #E0E7FF; font-weight: 600;">CODE</div>
-</div>
-</td>
-<td align="center" width="25%" style="padding: 0 15px;">
-<div style="background: rgba(255,255,255,0.15); border-radius: 20px; padding: 25px; backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.2);">
-<div style="font-size: 48px; font-weight: 800; color: #F59E0B; margin-bottom: 10px;">15+</div>
-<div style="font-size: 14px; color: #E0E7FF; font-weight: 600;">🚀 AMAZING</div>
-<div style="font-size: 14px; color: #E0E7FF; font-weight: 600;">FEATURES</div>
-</div>
-</td>
-</tr>
-</table>
-
 <div style="margin-top: 30px; padding: 25px; background: rgba(255,255,255,0.1); border-radius: 20px; backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.2);">
 <p style="margin: 0; font-size: 18px; color: #E0E7FF; font-style: italic; line-height: 1.6;">"Excellence is not a skill, it's an attitude. Together, we transform ideas into reality and create the future of hostel management."</p>
 <p style="margin: 15px 0 0 0; font-size: 16px; color: #FFD700; font-weight: 700;">— Team Access Denied ✨</p>
@@ -515,12 +482,6 @@ cd frontend && npm run dev
 </div>
 
 ---
-
-## 📄 **License**
-
-<div align="center">
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
 **Built with ❤️ by Team Access Denied**
 
