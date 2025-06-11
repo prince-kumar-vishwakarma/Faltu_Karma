@@ -483,6 +483,8 @@ cd frontend && npm run dev
 
 ---
 
+<div align="center">
+
 **Built with ❤️ by Team Access Denied**
 
 _Making hostel management simple, efficient, and modern._
