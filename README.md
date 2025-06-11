@@ -33,12 +33,14 @@ UniHostel is a modern hostel management system that provides students with a uni
 ## 🛠️ Tech Stack
 
 ### Frontend
+
 - **React.js 19.0.0** - Component-based UI library
 - **Vite 6.2.0** - Build tool and dev server
 - **React Router 7.5.0** - Client-side routing
 - **FontAwesome 6.7.2** - Icon library
 
 ### Backend
+
 - **Node.js** - JavaScript runtime
 - **Express.js 5.1.0** - Web framework
 - **MongoDB 6.15.0** - NoSQL database
@@ -49,6 +51,7 @@ UniHostel is a modern hostel management system that provides students with a uni
 ## 🚀 Installation
 
 ### Prerequisites
+
 - Node.js (v16.0.0 or higher)
 - MongoDB (v5.0 or higher)
 - npm (v8.0 or higher)
@@ -56,12 +59,14 @@ UniHostel is a modern hostel management system that provides students with a uni
 ### Setup
 
 1. **Clone the repository**
+
 ```bash
 git clone https://github.com/yourusername/unihostel.git
 cd unihostel
 ```
 
 2. **Backend setup**
+
 ```bash
 cd backend
 npm install
@@ -73,6 +78,7 @@ PORT=5000
 ```
 
 3. **Frontend setup**
+
 ```bash
 cd frontend
 npm install
@@ -81,12 +87,14 @@ npm install
 4. **Run the application**
 
 Start backend server:
+
 ```bash
 cd backend
 npm run dev
 ```
 
 Start frontend server:
+
 ```bash
 cd frontend
 npm run dev
@@ -97,16 +105,19 @@ Access the application at `http://localhost:5173`
 ## 🌐 API Endpoints
 
 ### Authentication
+
 - `POST /api/v1/auth/register` - Student registration
 - `POST /api/v1/auth/login` - Student login
 - `POST /api/v1/auth/logout` - User logout
 
 ### Student Management
+
 - `GET /api/v1/students/profile/:id` - Get student profile
 - `PUT /api/v1/students/update/:id` - Update student profile
 - `GET /api/v1/students/dashboard` - Get dashboard data
 
 ### Room & Services
+
 - `GET /api/v1/rooms/details/:id` - Get room details
 - `POST /api/v1/services/request` - Submit service request
 - `GET /api/v1/services/status/:id` - Check request status
@@ -174,5 +185,5 @@ Access the application at `http://localhost:5173`
 ---
 
 <div align="center">
-Built with ❤️ by the UniHostel Team | Making hostel management simple and efficient.
+Built with ❤️ by Team Access Denied | Making hostel management simple and efficient.
 </div>
