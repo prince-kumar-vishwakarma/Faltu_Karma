@@ -13,7 +13,8 @@
 - [🎯 About](#-about)
 - [✨ Features](#-features)
 - [🛠️ Tech Stack](#️-tech-stack)
-- [🚀 Installation](#-installation)
+- [📁 Project Structure](#-project-structure)
+- [�🚀 Installation](#-installation)
 - [🌐 API Endpoints](#-api-endpoints)
 - [👥 Contributors](#-contributors)
 
@@ -106,6 +107,109 @@ UniHostel is a modern hostel management system that provides students with a uni
 
 </div>
 
+## 📁 Project Structure
+
+<div align="center">
+
+### 🏗️ **Architecture Overview**
+
+```
+UniHostel/
+├── 📁 backend/                          # Backend Node.js application
+│   ├── 📄 index.js                      # Server entry point
+│   ├── 📄 package.json                  # Backend dependencies
+│   ├── 📁 config/
+│   │   └── 📄 db.js                     # MongoDB connection configuration
+│   ├── 📁 controllers/
+│   │   ├── 📄 adminController.js        # Admin management operations
+│   │   └── 📄 authController.js         # Authentication and authorization
+│   ├── 📁 middleware/
+│   │   └── 📄 authMiddleware.js         # JWT token validation
+│   ├── 📁 models/
+│   │   ├── 📄 allotmentModel.js         # Room allocation schema
+│   │   ├── 📄 roomModel.js              # Room information schema
+│   │   └── 📄 studentModel.js           # Student profile schema
+│   └── 📁 routes/
+│       ├── 📄 adminRoutes.js            # Admin API endpoints
+│       ├── 📄 authRoutes.js             # Authentication routes
+│       └── 📄 studentRoutes.js          # Student operation routes
+│
+├── 📁 frontend/                         # Frontend React application
+│   ├── 📄 index.html                    # Main HTML template
+│   ├── 📄 package.json                  # Frontend dependencies
+│   ├── 📄 eslint.config.js              # ESLint configuration
+│   ├── 📁 public/
+│   │   └── 📄 vite.svg                  # Application assets
+│   └── 📁 src/
+│       ├── 📄 App.jsx                   # Main application component
+│       ├── 📄 main.jsx                  # Application entry point
+│       ├── 📄 index.css                 # Global CSS styles
+│       ├── 📁 components/               # Reusable UI components
+│       │   ├── 📁 Body/                 # Homepage body components
+│       │   │   ├── 📄 Body.jsx
+│       │   │   ├── 📁 body1/            # Hero section
+│       │   │   ├── 📁 body2/            # Features showcase
+│       │   │   └── 📁 card/             # Feature cards
+│       │   ├── 📁 buttons/              # Button components
+│       │   ├── 📁 Footer/               # Footer component
+│       │   ├── 📁 header/               # Header component
+│       │   ├── 📁 Navbar/               # Navigation component
+│       │   └── 📁 sidebar/              # Dashboard sidebar
+│       ├── 📁 pages/                    # Application pages
+│       │   ├── 📁 dashboard/            # Dashboard pages
+│       │   │   ├── 📄 Dashboard.jsx
+│       │   │   ├── 📁 complaints/       # Complaint management
+│       │   │   ├── 📁 header/           # Dashboard header
+│       │   │   ├── 📁 overview/         # Dashboard overview
+│       │   │   ├── 📁 payments/         # Payment management
+│       │   │   ├── 📁 profile/          # User profile
+│       │   │   ├── 📁 room/             # Room details
+│       │   │   └── 📁 services/         # Service requests
+│       │   ├── 📁 about/                # About page
+│       │   ├── 📁 contact/              # Contact page
+│       │   ├── 📁 features/             # Features page
+│       │   ├── 📁 help/                 # Help and support
+│       │   ├── 📁 homePage/             # Landing page
+│       │   ├── 📁 login/                # Login interface
+│       │   ├── 📁 pricing/              # Pricing information
+│       │   ├── 📁 privacy/              # Privacy policy
+│       │   ├── 📁 servicess/            # Services overview
+│       │   └── 📁 signup/               # Registration interface
+│       └── 📁 utils/
+│           └── 📄 axiosInstance.js      # API client configuration
+│
+└── 📄 README.md                         # Project documentation
+```
+
+### 🎯 **Key Directories**
+
+<table>
+<tr>
+<td align="center" width="25%">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="40" height="40" alt="Backend"/>
+<h4>Backend</h4>
+<p>Node.js + Express<br/>RESTful API</p>
+</td>
+<td align="center" width="25%">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40" height="40" alt="Frontend"/>
+<h4>Frontend</h4>
+<p>React.js + Vite<br/>Modern UI</p>
+</td>
+<td align="center" width="25%">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="40" height="40" alt="Database"/>
+<h4>Database</h4>
+<p>MongoDB<br/>NoSQL Storage</p>
+</td>
+<td align="center" width="25%">
+<img src="https://logodix.com/logo/1989638.png" width="40" height="40" alt="Auth"/>
+<h4>Authentication</h4>
+<p>JWT Tokens<br/>Secure Access</p>
+</td>
+</tr>
+</table>
+
+</div>
+
 ## 🚀 Installation
 
 ### Prerequisites
@@ -190,78 +294,73 @@ _Building the future of hostel management, one commit at a time_
 
 <br/>
 
-<!-- Team Lead -->
-<div style="margin: 20px 0;">
-<table>
-<tr>
-<td align="center">
-<div style="position: relative; display: inline-block;">
-<img src="https://avatars.githubusercontent.com/prince-kumar-vishwakarma?v=4" width="120" height="120" style="border-radius: 60px; border: 5px solid #FFD700; box-shadow: 0 10px 30px rgba(255, 215, 0, 0.4); transition: transform 0.3s ease;"/>
-<div style="position: absolute; top: -5px; right: -5px; background: #FFD700; border-radius: 50%; width: 30px; height: 30px; display: flex; align-items: center; justify-content: center;">
-👑
+<!-- Circular Team Layout -->
+<div style="position: relative; width: 400px; height: 400px; margin: 50px auto;">
+
+<!-- Center Logo/Title -->
+<div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 80px; width: 160px; height: 160px; display: flex; flex-direction: column; justify-content: center; align-items: center; box-shadow: 0 15px 35px rgba(102, 126, 234, 0.4);">
+<h3 style="color: white; margin: 0; font-size: 16px;">🏠 UniHostel</h3>
+<p style="color: #E0E7FF; margin: 5px 0 0 0; font-size: 12px;">Development Team</p>
+<div style="color: #FFD700; font-size: 14px; margin-top: 5px;">⭐ ⭐ ⭐ ⭐ ⭐</div>
 </div>
+
+<!-- Team Member 1 - Prince (Top) -->
+<div style="position: absolute; top: 0; left: 50%; transform: translateX(-50%); text-align: center;">
+<div style="position: relative;">
+<img src="https://avatars.githubusercontent.com/prince-kumar-vishwakarma?v=4" width="100" height="100" style="border-radius: 50px; border: 5px solid #FFD700; box-shadow: 0 10px 25px rgba(255, 215, 0, 0.4);"/>
+<div style="position: absolute; top: -5px; right: -5px; background: #FFD700; border-radius: 50%; width: 24px; height: 24px; display: flex; align-items: center; justify-content: center; font-size: 12px;">👑</div>
 </div>
-<h3 style="margin: 15px 0 5px 0; color: #FFD700;">Prince Kumar Vishwakarma</h3>
-<p style="margin: 0; color: #666; font-size: 14px;">🔗 Full-Stack Lead & Integration Specialist</p>
-<p style="margin: 5px 0; font-size: 12px; color: #888;">MERN Stack Expert • API Architecture • Team Lead</p>
-<a href="https://github.com/prince-kumar-vishwakarma" style="text-decoration: none;">
-<img src="https://img.shields.io/badge/GitHub-prince--kumar--vishwakarma-181717?style=flat-square&logo=github" alt="GitHub"/>
+<h4 style="margin: 10px 0 2px 0; color: #FFD700; font-size: 14px;">Prince Kumar</h4>
+<p style="margin: 0; color: #666; font-size: 11px;">Full-Stack Lead</p>
+<a href="https://github.com/prince-kumar-vishwakarma">
+<img src="https://img.shields.io/badge/-Lead-FFD700?style=flat-square&logo=crown&logoColor=white" alt="Lead"/>
 </a>
-</td>
-</tr>
-</table>
 </div>
 
-<!-- Core Development Team -->
-<div style="margin: 40px 0;">
-<h4 style="color: #333; margin-bottom: 25px;">🛠️ **Core Development Team**</h4>
-
-<table>
-<tr>
-<td align="center" width="25%">
-<img src="https://avatars.githubusercontent.com/Pavan-Kumar-Vishwakarma?v=4" width="90" height="90" style="border-radius: 45px; border: 4px solid #10B981; box-shadow: 0 8px 25px rgba(16, 185, 129, 0.3);"/>
-<h4 style="margin: 12px 0 4px 0; color: #10B981;">Pavan Kumar Vishwakarma</h4>
-<p style="margin: 0; color: #666; font-size: 13px;">⚙️ Backend Architect</p>
-<p style="margin: 4px 0; font-size: 11px; color: #888;">Node.js • MongoDB • Server Logic</p>
+<!-- Team Member 2 - Pavan (Top Right) -->
+<div style="position: absolute; top: 15%; right: 0; text-align: center;">
+<img src="https://avatars.githubusercontent.com/Pavan-Kumar-Vishwakarma?v=4" width="90" height="90" style="border-radius: 45px; border: 4px solid #10B981; box-shadow: 0 8px 20px rgba(16, 185, 129, 0.4);"/>
+<h4 style="margin: 8px 0 2px 0; color: #10B981; font-size: 13px;">Pavan Kumar</h4>
+<p style="margin: 0; color: #666; font-size: 10px;">Backend Architect</p>
 <a href="https://github.com/Pavan-Kumar-Vishwakarma">
-<img src="https://img.shields.io/badge/-Backend%20Expert-10B981?style=flat-square&logo=node.js&logoColor=white" alt="Backend"/>
+<img src="https://img.shields.io/badge/-Backend-10B981?style=flat-square&logo=node.js&logoColor=white" alt="Backend"/>
 </a>
-</td>
-
-<td align="center" width="25%">
-<img src="https://avatars.githubusercontent.com/Abhishek12890551?v=4" width="90" height="90" style="border-radius: 45px; border: 4px solid #3B82F6; box-shadow: 0 8px 25px rgba(59, 130, 246, 0.3);"/>
-<h4 style="margin: 12px 0 4px 0; color: #3B82F6;">Abhishek</h4>
-<p style="margin: 0; color: #666; font-size: 13px;">🎨 UI/UX Designer</p>
-<p style="margin: 4px 0; font-size: 11px; color: #888;">Dashboard Design • User Experience</p>
-<a href="https://github.com/Abhishek12890551">
-<img src="https://img.shields.io/badge/-UI%2FUX%20Designer-3B82F6?style=flat-square&logo=figma&logoColor=white" alt="Designer"/>
-</a>
-</td>
-
-<td align="center" width="25%">
-<img src="https://avatars.githubusercontent.com/u/147483927?v=4" width="90" height="90" style="border-radius: 45px; border: 4px solid #F59E0B; box-shadow: 0 8px 25px rgba(245, 158, 11, 0.3);"/>
-<h4 style="margin: 12px 0 4px 0; color: #F59E0B;">Jayantika Pratik</h4>
-<p style="margin: 0; color: #666; font-size: 13px;">⚛️ Frontend Developer</p>
-<p style="margin: 4px 0; font-size: 11px; color: #888;">React Components • Interactive UI</p>
-<a href="https://github.com/jayantikapratik">
-<img src="https://img.shields.io/badge/-React%20Developer-F59E0B?style=flat-square&logo=react&logoColor=white" alt="React"/>
-</a>
-</td>
-
-<td align="center" width="25%">
-<img src="https://avatars.githubusercontent.com/muskan-kumari?v=4" width="90" height="90" style="border-radius: 45px; border: 4px solid #EF4444; box-shadow: 0 8px 25px rgba(239, 68, 68, 0.3);"/>
-<h4 style="margin: 12px 0 4px 0; color: #EF4444;">Muskan Kumari</h4>
-<p style="margin: 0; color: #666; font-size: 13px;">� Frontend Developer</p>
-<p style="margin: 4px 0; font-size: 11px; color: #888;">Modern UI • Responsive Design</p>
-<a href="https://github.com/muskan-kumari">
-<img src="https://img.shields.io/badge/-Frontend%20Expert-EF4444?style=flat-square&logo=javascript&logoColor=white" alt="Frontend"/>
-</a>
-</td>
-</tr>
-</table>
 </div>
 
-<!-- Team Achievements -->
+<!-- Team Member 3 - Abhishek (Bottom Right) -->
+<div style="position: absolute; bottom: 15%; right: 0; text-align: center;">
+<img src="https://avatars.githubusercontent.com/Abhishek12890551?v=4" width="90" height="90" style="border-radius: 45px; border: 4px solid #3B82F6; box-shadow: 0 8px 20px rgba(59, 130, 246, 0.4);"/>
+<h4 style="margin: 8px 0 2px 0; color: #3B82F6; font-size: 13px;">Abhishek</h4>
+<p style="margin: 0; color: #666; font-size: 10px;">UI/UX Designer</p>
+<a href="https://github.com/Abhishek12890551">
+<img src="https://img.shields.io/badge/-Designer-3B82F6?style=flat-square&logo=figma&logoColor=white" alt="Designer"/>
+</a>
+</div>
+
+<!-- Team Member 4 - Jayantika (Bottom Left) -->
+<div style="position: absolute; bottom: 15%; left: 0; text-align: center;">
+<img src="https://avatars.githubusercontent.com/u/147483927?v=4" width="90" height="90" style="border-radius: 45px; border: 4px solid #F59E0B; box-shadow: 0 8px 20px rgba(245, 158, 11, 0.4);"/>
+<h4 style="margin: 8px 0 2px 0; color: #F59E0B; font-size: 13px;">Jayantika Pratik</h4>
+<p style="margin: 0; color: #666; font-size: 10px;">Frontend Developer</p>
+<a href="https://github.com/jayantikapratik">
+<img src="https://img.shields.io/badge/-React-F59E0B?style=flat-square&logo=react&logoColor=white" alt="React"/>
+</a>
+</div>
+
+<!-- Team Member 5 - Muskan (Top Left) -->
+<div style="position: absolute; top: 15%; left: 0; text-align: center;">
+<img src="https://avatars.githubusercontent.com/muskankumari82672?v=4" width="90" height="90" style="border-radius: 45px; border: 4px solid #EF4444; box-shadow: 0 8px 20px rgba(239, 68, 68, 0.4);"/>
+<h4 style="margin: 8px 0 2px 0; color: #EF4444; font-size: 13px;">Muskan Kumari</h4>
+<p style="margin: 0; color: #666; font-size: 10px;">Frontend Developer</p>
+<a href="https://github.com/muskankumari82672">
+<img src="https://img.shields.io/badge/-Frontend-EF4444?style=flat-square&logo=javascript&logoColor=white" alt="Frontend"/>
+</a>
+</div>
+
+</div>
+
+## Team Achievements
+
 <div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); border-radius: 15px; padding: 25px; margin: 30px 0;">
 <h4 style="color: white; margin-bottom: 15px;">🏆 **Team Achievements**</h4>
 <div style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
@@ -276,8 +375,6 @@ _Building the future of hostel management, one commit at a time_
 <div style="border: 2px dashed #ddd; border-radius: 10px; padding: 20px; margin: 25px 0; background: #f9f9f9;">
 <h4 style="color: #333; margin-bottom: 10px;">🤝 **Want to Contribute?**</h4>
 <p style="color: #666; margin: 0;">We welcome contributions! Check out our <a href="#contributing">contributing guidelines</a> to get started.</p>
-</div>
-
 </div>
 
 ---
