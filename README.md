@@ -420,35 +420,30 @@ cd frontend && npm run dev
 <img src="https://avatars.githubusercontent.com/prince-kumar-vishwakarma?v=4" width="80" height="80" style="border-radius: 40px; border: 3px solid #FFD700;"/>
 <br/>
 <div style="background: linear-gradient(135deg, #FFD700, #FFA500); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: 800; font-size: 14px; margin: 8px 0;">PRINCE KUMAR VISHWAKARMA</div>
-<img src="https://img.shields.io/badge/Team%20Lead-Prince%20Kumar-FFD700?style=for-the-badge&logo=github"/>
 <br/><sub>👑 Full-Stack Developer</sub>
 </td>
 <td align="center" width="20%">
 <img src="https://avatars.githubusercontent.com/Pavan-Kumar-Vishwakarma?v=4" width="80" height="80" style="border-radius: 40px; border: 3px solid #10B981;"/>
 <br/>
 <div style="background: linear-gradient(135deg, #10B981, #059669); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: 800; font-size: 14px; margin: 8px 0;">PAVAN KUMAR</div>
-<img src="https://img.shields.io/badge/Backend-Pavan%20Kumar-10B981?style=for-the-badge&logo=node.js"/>
 <br/><sub>⚙️ Backend Expert</sub>
 </td>
 <td align="center" width="20%">
 <img src="https://avatars.githubusercontent.com/Abhishek12890551?v=4" width="80" height="80" style="border-radius: 40px; border: 3px solid #3B82F6;"/>
 <br/>
 <div style="background: linear-gradient(135deg, #3B82F6, #1D4ED8); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: 800; font-size: 14px; margin: 8px 0;">ABHISHEK KUMAR</div>
-<img src="https://img.shields.io/badge/Designer-Abhishek-3B82F6?style=for-the-badge&logo=figma"/>
 <br/><sub>🎨 UI/UX Designer</sub>
 </td>
 <td align="center" width="20%">
 <img src="https://avatars.githubusercontent.com/u/147483927?v=4" width="80" height="80" style="border-radius: 40px; border: 3px solid #F59E0B;"/>
 <br/>
 <div style="background: linear-gradient(135deg, #F59E0B, #D97706); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: 800; font-size: 14px; margin: 8px 0;">JAYANTIKA PRATIK</div>
-<img src="https://img.shields.io/badge/React-Jayantika-F59E0B?style=for-the-badge&logo=react"/>
 <br/><sub>⚛️ React Developer</sub>
 </td>
 <td align="center" width="20%">
 <img src="https://avatars.githubusercontent.com/muskankumari82672?v=4" width="80" height="80" style="border-radius: 40px; border: 3px solid #EF4444;"/>
 <br/>
 <div style="background: linear-gradient(135deg, #EF4444, #DC2626); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: 800; font-size: 14px; margin: 8px 0;">MUSKAN KUMARI</div>
-<img src="https://img.shields.io/badge/Frontend-Muskan-EF4444?style=for-the-badge&logo=javascript"/>
 <br/><sub>💫 Frontend Developer</sub>
 </td>
 </tr>
