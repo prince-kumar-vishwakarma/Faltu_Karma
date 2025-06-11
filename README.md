@@ -201,11 +201,6 @@ JWT_EXPIRE=24h
 PORT=5000
 NODE_ENV=development
 
-# Email Configuration (Optional)
-EMAIL_HOST=smtp.gmail.com
-EMAIL_PORT=587
-EMAIL_USER=your_email@gmail.com
-EMAIL_PASS=your_app_password
 ```
 
 #### **Step 3: Frontend Setup**
@@ -219,14 +214,6 @@ npm install
 
 # Create environment file for frontend
 touch .env
-```
-
-**Configure frontend `.env` file:**
-
-```env
-VITE_API_URL=http://localhost:5000
-VITE_APP_NAME=UniHostel
-VITE_APP_VERSION=1.0.0
 ```
 
 #### **Step 4: Database Setup**
@@ -868,8 +855,6 @@ We welcome contributions from the community! Here's how you can get involved:
 </div>
 
 ---
-
-## 📄 License
 
 <div align="center">
 
