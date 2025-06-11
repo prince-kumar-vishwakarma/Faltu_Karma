@@ -240,7 +240,7 @@ Access the application at `http://localhost:5173`
 <td align="center" style="padding: 20px;">
 <div style="background: rgba(255,255,255,0.1); border-radius: 20px; padding: 20px; backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.2);">
 <a href="https://github.com/jayantikapratik">
-<img src="https://avatars.githubusercontent.com/jayantika-pratik?v=4" width="100px;" alt="Jayantika Pratik" style="border-radius: 50%; border: 4px solid #F59E0B; box-shadow: 0 8px 32px rgba(0,0,0,0.3);"/>
+<img src="https://avatars.githubusercontent.com/u/147483927?v=4" width="100px;" alt="Jayantika Pratik" style="border-radius: 50%; border: 4px solid #F59E0B; box-shadow: 0 8px 32px rgba(0,0,0,0.3);"/>
 </a>
 <br/><br/>
 <h4 style="color: #F59E0B; margin: 10px 0;">Jayantika Pratik</h4>
@@ -265,10 +265,6 @@ Access the application at `http://localhost:5173`
 📲 Responsive Design
 </div>
 </div>
-</td>
-
-<td align="center" style="padding: 20px;">
-<!-- Empty cell for spacing -->
 </td>
 </tr>
 </table>
