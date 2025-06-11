@@ -159,23 +159,23 @@ Access the application at `http://localhost:5173`
 </td>
 
 <td align="center">
-<a href="https://github.com/raj-sharma-dev">
-<img src="https://avatars.githubusercontent.com/raj-sharma-dev?v=4" width="80px;" alt="Raj Sharma"/>
+<a href="https://github.com/jayantika-pratik">
+<img src="https://avatars.githubusercontent.com/jayantika-pratik?v=4" width="80px;" alt="Jayantika Pratik"/>
 <br />
-<sub><b>Raj Sharma</b></sub>
+<sub><b>Jayantika Pratik</b></sub>
 </a>
 <br />
 <small>Frontend Developer</small>
 </td>
 
 <td align="center">
-<a href="https://github.com/priya-web-developer">
-<img src="https://avatars.githubusercontent.com/priya-web-developer?v=4" width="80px;" alt="Priya Singh"/>
+<a href="https://github.com/muskan-kumari">
+<img src="https://avatars.githubusercontent.com/muskan-kumari?v=4" width="80px;" alt="Muskan Kumari"/>
 <br />
-<sub><b>Priya Singh</b></sub>
+<sub><b>Muskan Kumari</b></sub>
 </a>
 <br />
-<small>QA Engineer</small>
+<small>Frontend Developer</small>
 </td>
 </tr>
 </table>
