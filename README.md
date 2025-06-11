@@ -414,89 +414,65 @@ cd frontend && npm run dev
 
 ### 🌟 _Building the future, one commit at a time_
 
+<table>
+<tr>
+<td align="center" width="20%">
+<img src="https://avatars.githubusercontent.com/prince-kumar-vishwakarma?v=4" width="80" height="80" style="border-radius: 40px; border: 3px solid #FFD700;"/>
 <br/>
-
-<div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 30px; max-width: 1200px; margin: 0 auto;">
-
-<!-- Prince Kumar - Team Lead -->
-<div style="background: linear-gradient(145deg, #ffffff 0%, #f8fafc 100%); border-radius: 20px; padding: 25px; width: 220px; text-align: center; box-shadow: 0 15px 35px rgba(0,0,0,0.1); border: 2px solid #FFD700; position: relative; transition: transform 0.3s ease;">
-<div style="position: absolute; top: -10px; right: -10px; background: #FFD700; border-radius: 50%; width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; font-size: 20px; box-shadow: 0 5px 15px rgba(255, 215, 0, 0.4);">👑</div>
-<img src="https://avatars.githubusercontent.com/prince-kumar-vishwakarma?v=4" width="100" height="100" style="border-radius: 50px; border: 4px solid #FFD700; margin-bottom: 15px; box-shadow: 0 8px 25px rgba(255, 215, 0, 0.3);"/>
-<h3 style="margin: 0 0 8px 0; color: #FFD700; font-size: 16px; font-weight: 700;">Prince Kumar Vishwakarma</h3>
-<p style="margin: 0 0 15px 0; color: #64748b; font-size: 13px; font-weight: 500;">🚀 Full-Stack Team Lead</p>
-<div style="background: #FFD700; color: #000; padding: 8px 16px; border-radius: 20px; font-size: 12px; font-weight: 600; margin-bottom: 15px;">TEAM LEADER</div>
-<a href="https://github.com/prince-kumar-vishwakarma" style="text-decoration: none;">
-<div style="background: #1f2937; color: white; padding: 8px 16px; border-radius: 15px; font-size: 12px; font-weight: 500; transition: background 0.3s ease;">
-🔗 GitHub Profile
-</div>
-</a>
-</div>
-
-<!-- Pavan Kumar - Backend -->
-<div style="background: linear-gradient(145deg, #ffffff 0%, #f8fafc 100%); border-radius: 20px; padding: 25px; width: 220px; text-align: center; box-shadow: 0 15px 35px rgba(0,0,0,0.1); border: 2px solid #10B981; position: relative; transition: transform 0.3s ease;">
-<div style="position: absolute; top: -10px; right: -10px; background: #10B981; border-radius: 50%; width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; font-size: 18px; color: white; box-shadow: 0 5px 15px rgba(16, 185, 129, 0.4);">⚙️</div>
-<img src="https://avatars.githubusercontent.com/Pavan-Kumar-Vishwakarma?v=4" width="100" height="100" style="border-radius: 50px; border: 4px solid #10B981; margin-bottom: 15px; box-shadow: 0 8px 25px rgba(16, 185, 129, 0.3);"/>
-<h3 style="margin: 0 0 8px 0; color: #10B981; font-size: 16px; font-weight: 700;">Pavan Kumar</h3>
-<p style="margin: 0 0 15px 0; color: #64748b; font-size: 13px; font-weight: 500;">⚙️ Backend Expert</p>
-<div style="background: #10B981; color: white; padding: 8px 16px; border-radius: 20px; font-size: 12px; font-weight: 600; margin-bottom: 15px;">BACKEND DEV</div>
-<a href="https://github.com/Pavan-Kumar-Vishwakarma" style="text-decoration: none;">
-<div style="background: #1f2937; color: white; padding: 8px 16px; border-radius: 15px; font-size: 12px; font-weight: 500; transition: background 0.3s ease;">
-🔗 GitHub Profile
-</div>
-</a>
-</div>
-
-<!-- Abhishek - UI/UX -->
-<div style="background: linear-gradient(145deg, #ffffff 0%, #f8fafc 100%); border-radius: 20px; padding: 25px; width: 220px; text-align: center; box-shadow: 0 15px 35px rgba(0,0,0,0.1); border: 2px solid #3B82F6; position: relative; transition: transform 0.3s ease;">
-<div style="position: absolute; top: -10px; right: -10px; background: #3B82F6; border-radius: 50%; width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; font-size: 18px; color: white; box-shadow: 0 5px 15px rgba(59, 130, 246, 0.4);">🎨</div>
-<img src="https://avatars.githubusercontent.com/Abhishek12890551?v=4" width="100" height="100" style="border-radius: 50px; border: 4px solid #3B82F6; margin-bottom: 15px; box-shadow: 0 8px 25px rgba(59, 130, 246, 0.3);"/>
-<h3 style="margin: 0 0 8px 0; color: #3B82F6; font-size: 16px; font-weight: 700;">Abhishek Kumar</h3>
-<p style="margin: 0 0 15px 0; color: #64748b; font-size: 13px; font-weight: 500;">🎨 UI/UX Designer</p>
-<div style="background: #3B82F6; color: white; padding: 8px 16px; border-radius: 20px; font-size: 12px; font-weight: 600; margin-bottom: 15px;">UI/UX DESIGN</div>
-<a href="https://github.com/Abhishek12890551" style="text-decoration: none;">
-<div style="background: #1f2937; color: white; padding: 8px 16px; border-radius: 15px; font-size: 12px; font-weight: 500; transition: background 0.3s ease;">
-🔗 GitHub Profile
-</div>
-</a>
-</div>
-
-<!-- Jayantika - React -->
-<div style="background: linear-gradient(145deg, #ffffff 0%, #f8fafc 100%); border-radius: 20px; padding: 25px; width: 220px; text-align: center; box-shadow: 0 15px 35px rgba(0,0,0,0.1); border: 2px solid #F59E0B; position: relative; transition: transform 0.3s ease;">
-<div style="position: absolute; top: -10px; right: -10px; background: #F59E0B; border-radius: 50%; width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; font-size: 18px; color: white; box-shadow: 0 5px 15px rgba(245, 158, 11, 0.4);">⚛️</div>
-<img src="https://avatars.githubusercontent.com/u/147483927?v=4" width="100" height="100" style="border-radius: 50px; border: 4px solid #F59E0B; margin-bottom: 15px; box-shadow: 0 8px 25px rgba(245, 158, 11, 0.3);"/>
-<h3 style="margin: 0 0 8px 0; color: #F59E0B; font-size: 16px; font-weight: 700;">Jayantika Pratik</h3>
-<p style="margin: 0 0 15px 0; color: #64748b; font-size: 13px; font-weight: 500;">⚛️ React Developer</p>
-<div style="background: #F59E0B; color: white; padding: 8px 16px; border-radius: 20px; font-size: 12px; font-weight: 600; margin-bottom: 15px;">REACT DEV</div>
-<a href="https://github.com/jayantikapratik" style="text-decoration: none;">
-<div style="background: #1f2937; color: white; padding: 8px 16px; border-radius: 15px; font-size: 12px; font-weight: 500; transition: background 0.3s ease;">
-🔗 GitHub Profile
-</div>
-</a>
-</div>
-
-<!-- Muskan - Frontend -->
-<div style="background: linear-gradient(145deg, #ffffff 0%, #f8fafc 100%); border-radius: 20px; padding: 25px; width: 220px; text-align: center; box-shadow: 0 15px 35px rgba(0,0,0,0.1); border: 2px solid #EF4444; position: relative; transition: transform 0.3s ease;">
-<div style="position: absolute; top: -10px; right: -10px; background: #EF4444; border-radius: 50%; width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; font-size: 18px; color: white; box-shadow: 0 5px 15px rgba(239, 68, 68, 0.4);">💫</div>
-<img src="https://avatars.githubusercontent.com/muskankumari82672?v=4" width="100" height="100" style="border-radius: 50px; border: 4px solid #EF4444; margin-bottom: 15px; box-shadow: 0 8px 25px rgba(239, 68, 68, 0.3);"/>
-<h3 style="margin: 0 0 8px 0; color: #EF4444; font-size: 16px; font-weight: 700;">Muskan Kumari</h3>
-<p style="margin: 0 0 15px 0; color: #64748b; font-size: 13px; font-weight: 500;">💫 Frontend Developer</p>
-<div style="background: #EF4444; color: white; padding: 8px 16px; border-radius: 20px; font-size: 12px; font-weight: 600; margin-bottom: 15px;">FRONTEND DEV</div>
-<a href="https://github.com/muskankumari82672" style="text-decoration: none;">
-<div style="background: #1f2937; color: white; padding: 8px 16px; border-radius: 15px; font-size: 12px; font-weight: 500; transition: background 0.3s ease;">
-🔗 GitHub Profile
-</div>
-</a>
-</div>
-
-</div>
-
-<br/><br/>
+<img src="https://img.shields.io/badge/Team%20Lead-Prince%20Kumar-FFD700?style=for-the-badge&logo=github"/>
+<br/><sub>👑 Full-Stack Developer</sub>
+</td>
+<td align="center" width="20%">
+<img src="https://avatars.githubusercontent.com/Pavan-Kumar-Vishwakarma?v=4" width="80" height="80" style="border-radius: 40px; border: 3px solid #10B981;"/>
+<br/>
+<img src="https://img.shields.io/badge/Backend-Pavan%20Kumar-10B981?style=for-the-badge&logo=node.js"/>
+<br/><sub>⚙️ Backend Expert</sub>
+</td>
+<td align="center" width="20%">
+<img src="https://avatars.githubusercontent.com/Abhishek12890551?v=4" width="80" height="80" style="border-radius: 40px; border: 3px solid #3B82F6;"/>
+<br/>
+<img src="https://img.shields.io/badge/Designer-Abhishek-3B82F6?style=for-the-badge&logo=figma"/>
+<br/><sub>🎨 UI/UX Designer</sub>
+</td>
+<td align="center" width="20%">
+<img src="https://avatars.githubusercontent.com/u/147483927?v=4" width="80" height="80" style="border-radius: 40px; border: 3px solid #F59E0B;"/>
+<br/>
+<img src="https://img.shields.io/badge/React-Jayantika-F59E0B?style=for-the-badge&logo=react"/>
+<br/><sub>⚛️ React Developer</sub>
+</td>
+<td align="center" width="20%">
+<img src="https://avatars.githubusercontent.com/muskankumari82672?v=4" width="80" height="80" style="border-radius: 40px; border: 3px solid #EF4444;"/>
+<br/>
+<img src="https://img.shields.io/badge/Frontend-Muskan-EF4444?style=for-the-badge&logo=javascript"/>
+<br/><sub>💫 Frontend Developer</sub>
+</td>
+</tr>
+</table>
 
 ### 📊 **Team Achievements**
 
-<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 25px; padding: 40px 30px; margin: 30px auto; max-width: 1000px; color: white; box-shadow: 0 20px 50px rgba(102, 126, 234, 0.3);">
+<table>
+<tr>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/Developers-5-FFD700?style=for-the-badge&logo=users"/>
+<br/><sub>👥 Talented Team Members</sub>
+</td>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/Duration-2%20Weeks-10B981?style=for-the-badge&logo=clock"/>
+<br/><sub>⏱️ Sprint Development</sub>
+</td>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/Code-25K%2B%20Lines-3B82F6?style=for-the-badge&logo=code"/>
+<br/><sub>💻 Lines of Excellence</sub>
+</td>
+<td align="center" width="25%">
+<img src="https://img.shields.io/badge/Features-15%2B-F59E0B?style=for-the-badge&logo=star"/>
+<br/><sub>🚀 Amazing Features</sub>
+</td>
+</tr>
+</table>
 
-<table align="center" style="width: 100%;">
+</div>
 <tr>
 <td align="center" width="25%" style="padding: 0 15px;">
 <div style="background: rgba(255,255,255,0.15); border-radius: 20px; padding: 25px; backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.2);">
