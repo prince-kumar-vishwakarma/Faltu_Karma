@@ -727,71 +727,71 @@ We welcome contributions from the community! Here's how you can get involved:
 <table>
 <tr>
 <td align="center" width="20%">
-<a href="https://github.com/alexanderjohnson">
-<img src="https://avatars.githubusercontent.com/u/1234567?v=4" width="100px;" alt="Alexander Johnson" style="border-radius: 50%; border: 3px solid #7C3AED;"/>
+<a href="https://github.com/prince-kumar-vishwakarma">
+<img src="https://avatars.githubusercontent.com/prince-kumar-vishwakarma?v=4" width="100px;" alt="Prince Kumar Vishwakarma" style="border-radius: 50%; border: 3px solid #7C3AED;"/>
 <br />
-<sub><b>Alexander Johnson</b></sub>
+<sub><b>Prince Kumar Vishwakarma</b></sub>
 </a>
 <br />
-<span title="Full Stack Developer">💻 🎨 📖</span>
+<span title="Backend & Frontend Integrator">💻 🔗 🎨</span>
 <br />
-<small>Lead Full Stack Developer</small>
+<small>Backend & Frontend Integrator</small>
 <br />
-<small><em>MERN Stack Expert | UI/UX Designer</em></small>
+<small><em>MERN Stack Expert | API Integration</em></small>
 </td>
 
 <td align="center" width="20%">
-<a href="https://github.com/sarahwilliams">
-<img src="https://avatars.githubusercontent.com/u/2345678?v=4" width="100px;" alt="Sarah Williams" style="border-radius: 50%; border: 3px solid #10B981;"/>
+<a href="https://github.com/Pavan-Kumar-Vishwakarma">
+<img src="https://avatars.githubusercontent.com/Pavan-Kumar-Vishwakarma?v=4" width="100px;" alt="Pavan Kumar Vishwakarma" style="border-radius: 50%; border: 3px solid #10B981;"/>
 <br />
-<sub><b>Sarah Williams</b></sub>
+<sub><b>Pavan Kumar Vishwakarma</b></sub>
 </a>
 <br />
 <span title="Backend Developer">⚙️ 🔐 📊</span>
 <br />
-<small>Senior Backend Developer</small>
+<small>Backend Developer</small>
 <br />
 <small><em>Node.js Specialist | Database Architect</em></small>
 </td>
 
 <td align="center" width="20%">
-<a href="https://github.com/michaelchen">
-<img src="https://avatars.githubusercontent.com/u/3456789?v=4" width="100px;" alt="Michael Chen" style="border-radius: 50%; border: 3px solid #3B82F6;"/>
+<a href="https://github.com/Abhishek12890551">
+<img src="https://avatars.githubusercontent.com/Abhishek12890551?v=4" width="100px;" alt="Abhishek" style="border-radius: 50%; border: 3px solid #3B82F6;"/>
 <br />
-<sub><b>Michael Chen</b></sub>
+<sub><b>Abhishek</b></sub>
 </a>
 <br />
-<span title="Frontend Developer">🎨 📱 ✨</span>
+<span title="UI/UX Designer">🎨 📱 ✨</span>
+<br />
+<small>Student Dashboard Designer</small>
+<br />
+<small><em>UI/UX Expert | Dashboard Design</em></small>
+</td>
+
+<td align="center" width="20%">
+<a href="https://github.com/raj-sharma-dev">
+<img src="https://avatars.githubusercontent.com/raj-sharma-dev?v=4" width="100px;" alt="Raj Sharma" style="border-radius: 50%; border: 3px solid #F59E0B;"/>
+<br />
+<sub><b>Raj Sharma</b></sub>
+</a>
+<br />
+<span title="Frontend Developer">🚀 ⚡ 🔧</span>
 <br />
 <small>Frontend Developer</small>
 <br />
-<small><em>React.js Expert | Mobile-First Design</em></small>
+<small><em>React Components | User Experience</em></small>
 </td>
 
 <td align="center" width="20%">
-<a href="https://github.com/emilydavis">
-<img src="https://avatars.githubusercontent.com/u/4567890?v=4" width="100px;" alt="Emily Davis" style="border-radius: 50%; border: 3px solid #F59E0B;"/>
+<a href="https://github.com/priya-web-developer">
+<img src="https://avatars.githubusercontent.com/priya-web-developer?v=4" width="100px;" alt="Priya Singh" style="border-radius: 50%; border: 3px solid #EF4444;"/>
 <br />
-<sub><b>Emily Davis</b></sub>
-</a>
-<br />
-<span title="DevOps Engineer">🚀 ☁️ 🔧</span>
-<br />
-<small>DevOps Engineer</small>
-<br />
-<small><em>Cloud Infrastructure | CI/CD Specialist</em></small>
-</td>
-
-<td align="center" width="20%">
-<a href="https://github.com/davidwilson">
-<img src="https://avatars.githubusercontent.com/u/5678901?v=4" width="100px;" alt="David Wilson" style="border-radius: 50%; border: 3px solid #EF4444;"/>
-<br />
-<sub><b>David Wilson</b></sub>
+<sub><b>Priya Singh</b></sub>
 </a>
 <br />
 <span title="QA Engineer">🧪 🐛 📋</span>
 <br />
-<small>QA Engineer</small>
+<small>QA Engineer & Tester</small>
 <br />
 <small><em>Test Automation | Quality Assurance</em></small>
 </td>
@@ -818,34 +818,34 @@ We welcome contributions from the community! Here's how you can get involved:
 <th>🛠️ Technologies</th>
 </tr>
 <tr>
-<td><strong>Alexander Johnson</strong></td>
-<td>Full Stack Development</td>
-<td>Architecture & Core Features</td>
-<td>React, Node.js, MongoDB, JWT</td>
+<td><strong>Prince Kumar Vishwakarma</strong></td>
+<td>Backend & Frontend Integration</td>
+<td>Full-Stack Architecture & API Integration</td>
+<td>React, Node.js, MongoDB, Express.js</td>
 </tr>
 <tr>
-<td><strong>Sarah Williams</strong></td>
+<td><strong>Pavan Kumar Vishwakarma</strong></td>
 <td>Backend Development</td>
-<td>API Design & Database</td>
-<td>Express.js, Mongoose, Authentication</td>
+<td>Server Architecture & Database Design</td>
+<td>Node.js, Express.js, MongoDB, JWT</td>
 </tr>
 <tr>
-<td><strong>Michael Chen</strong></td>
+<td><strong>Abhishek</strong></td>
+<td>UI/UX Design</td>
+<td>Student Dashboard Design & User Interface</td>
+<td>React, CSS3, Figma, Responsive Design</td>
+</tr>
+<tr>
+<td><strong>Raj Sharma</strong></td>
 <td>Frontend Development</td>
-<td>UI/UX & Components</td>
-<td>React, CSS3, Responsive Design</td>
+<td>Component Development & User Experience</td>
+<td>React.js, JavaScript, CSS3, Vite</td>
 </tr>
 <tr>
-<td><strong>Emily Davis</strong></td>
-<td>DevOps & Infrastructure</td>
-<td>Deployment & Monitoring</td>
-<td>Docker, AWS, CI/CD, Nginx</td>
-</tr>
-<tr>
-<td><strong>David Wilson</strong></td>
+<td><strong>Priya Singh</strong></td>
 <td>Quality Assurance</td>
-<td>Testing & Documentation</td>
-<td>Jest, Cypress, Test Automation</td>
+<td>Testing & Quality Control</td>
+<td>Jest, Cypress, Test Automation, Debugging</td>
 </tr>
 </table>
 
