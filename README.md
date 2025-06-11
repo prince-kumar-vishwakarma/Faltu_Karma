@@ -32,21 +32,79 @@ UniHostel is a modern hostel management system that provides students with a uni
 
 ## 🛠️ Tech Stack
 
-### Frontend
+<div align="center">
 
-- **React.js 19.0.0** - Component-based UI library
-- **Vite 6.2.0** - Build tool and dev server
-- **React Router 7.5.0** - Client-side routing
-- **FontAwesome 6.7.2** - Icon library
+### 🎨 Frontend Technologies
 
-### Backend
+<table>
+<tr>
+<td align="center" width="120">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="48" height="48" alt="React"/>
+<br/>
+<strong>React.js</strong>
+<br/>
+<sub>v19.0.0</sub>
+</td>
+<td align="center" width="120">
+<img src="https://vitejs.dev/logo.svg" width="48" height="48" alt="Vite"/>
+<br/>
+<strong>Vite</strong>
+<br/>
+<sub>v6.2.0</sub>
+</td>
+<td align="center" width="120">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="48" height="48" alt="JavaScript"/>
+<br/>
+<strong>JavaScript</strong>
+<br/>
+<sub>ES6+</sub>
+</td>
+<td align="center" width="120">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="48" height="48" alt="CSS3"/>
+<br/>
+<strong>CSS3</strong>
+<br/>
+<sub>Modern</sub>
+</td>
+</tr>
+</table>
 
-- **Node.js** - JavaScript runtime
-- **Express.js 5.1.0** - Web framework
-- **MongoDB 6.15.0** - NoSQL database
-- **Mongoose 8.13.2** - MongoDB object modeling
-- **JWT 9.0.2** - Authentication
-- **bcrypt 5.1.1** - Password hashing
+### ⚙️ Backend Technologies
+
+<table>
+<tr>
+<td align="center" width="120">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="48" height="48" alt="Node.js"/>
+<br/>
+<strong>Node.js</strong>
+<br/>
+<sub>Runtime</sub>
+</td>
+<td align="center" width="120">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" width="48" height="48" alt="Express.js"/>
+<br/>
+<strong>Express.js</strong>
+<br/>
+<sub>v5.1.0</sub>
+</td>
+<td align="center" width="120">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" width="48" height="48" alt="MongoDB"/>
+<br/>
+<strong>MongoDB</strong>
+<br/>
+<sub>v6.15.0</sub>
+</td>
+<td align="center" width="120">
+<img src="https://raw.githubusercontent.com/auth0/node-jsonwebtoken/master/sign.png" width="48" height="48" alt="JWT"/>
+<br/>
+<strong>JWT</strong>
+<br/>
+<sub>v9.0.2</sub>
+</td>
+</tr>
+</table>
+
+</div>
 
 ## 🚀 Installation
 
@@ -126,59 +184,105 @@ Access the application at `http://localhost:5173`
 
 <div align="center">
 
-<table>
+### 🌟 Meet Our Amazing Development Team
+
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 20px; padding: 30px; margin: 20px 0;">
+
+<table style="border: none;">
 <tr>
-<td align="center">
+<td align="center" style="padding: 20px;">
+<div style="background: rgba(255,255,255,0.1); border-radius: 20px; padding: 20px; backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.2);">
 <a href="https://github.com/prince-kumar-vishwakarma">
-<img src="https://avatars.githubusercontent.com/prince-kumar-vishwakarma?v=4" width="80px;" alt="Prince Kumar Vishwakarma"/>
-<br />
-<sub><b>Prince Kumar Vishwakarma</b></sub>
+<img src="https://avatars.githubusercontent.com/prince-kumar-vishwakarma?v=4" width="100px;" alt="Prince Kumar Vishwakarma" style="border-radius: 50%; border: 4px solid #FFD700; box-shadow: 0 8px 32px rgba(0,0,0,0.3);"/>
 </a>
-<br />
-<small>Backend & Frontend Integrator</small>
+<br/><br/>
+<h4 style="color: #FFD700; margin: 10px 0;">Prince Kumar Vishwakarma</h4>
+<p style="color: #ffffff; margin: 5px 0;">🔗 Backend & Frontend Integrator</p>
+<div style="color: #E0E7FF; font-size: 12px;">
+💻 MERN Stack Expert<br/>
+🚀 API Integration Specialist
+</div>
+</div>
 </td>
 
-<td align="center">
+<td align="center" style="padding: 20px;">
+<div style="background: rgba(255,255,255,0.1); border-radius: 20px; padding: 20px; backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.2);">
 <a href="https://github.com/Pavan-Kumar-Vishwakarma">
-<img src="https://avatars.githubusercontent.com/Pavan-Kumar-Vishwakarma?v=4" width="80px;" alt="Pavan Kumar Vishwakarma"/>
-<br />
-<sub><b>Pavan Kumar Vishwakarma</b></sub>
+<img src="https://avatars.githubusercontent.com/Pavan-Kumar-Vishwakarma?v=4" width="100px;" alt="Pavan Kumar Vishwakarma" style="border-radius: 50%; border: 4px solid #10B981; box-shadow: 0 8px 32px rgba(0,0,0,0.3);"/>
 </a>
-<br />
-<small>Backend Developer</small>
+<br/><br/>
+<h4 style="color: #10B981; margin: 10px 0;">Pavan Kumar Vishwakarma</h4>
+<p style="color: #ffffff; margin: 5px 0;">⚙️ Backend Developer</p>
+<div style="color: #E0E7FF; font-size: 12px;">
+🔧 Node.js Specialist<br/>
+🗄️ Database Architect
+</div>
+</div>
 </td>
 
-<td align="center">
+<td align="center" style="padding: 20px;">
+<div style="background: rgba(255,255,255,0.1); border-radius: 20px; padding: 20px; backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.2);">
 <a href="https://github.com/Abhishek12890551">
-<img src="https://avatars.githubusercontent.com/Abhishek12890551?v=4" width="80px;" alt="Abhishek"/>
-<br />
-<sub><b>Abhishek</b></sub>
+<img src="https://avatars.githubusercontent.com/Abhishek12890551?v=4" width="100px;" alt="Abhishek" style="border-radius: 50%; border: 4px solid #3B82F6; box-shadow: 0 8px 32px rgba(0,0,0,0.3);"/>
 </a>
-<br />
-<small>UI/UX Designer</small>
+<br/><br/>
+<h4 style="color: #3B82F6; margin: 10px 0;">Abhishek</h4>
+<p style="color: #ffffff; margin: 5px 0;">🎨 UI/UX Designer</p>
+<div style="color: #E0E7FF; font-size: 12px;">
+✨ Dashboard Design Expert<br/>
+📱 User Experience Specialist
+</div>
+</div>
+</td>
+</tr>
+
+<tr>
+<td align="center" style="padding: 20px;">
+<div style="background: rgba(255,255,255,0.1); border-radius: 20px; padding: 20px; backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.2);">
+<a href="https://github.com/jayantikapratik">
+<img src="https://avatars.githubusercontent.com/jayantika-pratik?v=4" width="100px;" alt="Jayantika Pratik" style="border-radius: 50%; border: 4px solid #F59E0B; box-shadow: 0 8px 32px rgba(0,0,0,0.3);"/>
+</a>
+<br/><br/>
+<h4 style="color: #F59E0B; margin: 10px 0;">Jayantika Pratik</h4>
+<p style="color: #ffffff; margin: 5px 0;">🚀 Frontend Developer</p>
+<div style="color: #E0E7FF; font-size: 12px;">
+⚛️ React Components<br/>
+🎯 Interactive Features
+</div>
+</div>
 </td>
 
-<td align="center">
-<a href="https://github.com/jayantika-pratik">
-<img src="https://avatars.githubusercontent.com/jayantika-pratik?v=4" width="80px;" alt="Jayantika Pratik"/>
-<br />
-<sub><b>Jayantika Pratik</b></sub>
-</a>
-<br />
-<small>Frontend Developer</small>
-</td>
-
-<td align="center">
+<td align="center" style="padding: 20px;">
+<div style="background: rgba(255,255,255,0.1); border-radius: 20px; padding: 20px; backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.2);">
 <a href="https://github.com/muskan-kumari">
-<img src="https://avatars.githubusercontent.com/muskan-kumari?v=4" width="80px;" alt="Muskan Kumari"/>
-<br />
-<sub><b>Muskan Kumari</b></sub>
+<img src="https://avatars.githubusercontent.com/muskan-kumari?v=4" width="100px;" alt="Muskan Kumari" style="border-radius: 50%; border: 4px solid #EF4444; box-shadow: 0 8px 32px rgba(0,0,0,0.3);"/>
 </a>
-<br />
-<small>Frontend Developer</small>
+<br/><br/>
+<h4 style="color: #EF4444; margin: 10px 0;">Muskan Kumari</h4>
+<p style="color: #ffffff; margin: 5px 0;">🚀 Frontend Developer</p>
+<div style="color: #E0E7FF; font-size: 12px;">
+💫 Modern UI Components<br/>
+📲 Responsive Design
+</div>
+</div>
+</td>
+
+<td align="center" style="padding: 20px;">
+<!-- Empty cell for spacing -->
 </td>
 </tr>
 </table>
+
+</div>
+
+### 📊 Team Stats
+
+<div style="margin: 30px 0;">
+<img src="https://img.shields.io/badge/Team%20Size-5%20Developers-brightgreen?style=for-the-badge&logo=users" alt="Team Size"/>
+<img src="https://img.shields.io/badge/Total%20Commits-500%2B-blue?style=for-the-badge&logo=git" alt="Commits"/>
+<img src="https://img.shields.io/badge/Lines%20of%20Code-25K%2B-purple?style=for-the-badge&logo=code" alt="Lines of Code"/>
+<img src="https://img.shields.io/badge/Project%20Duration-2%20Weeks-orange?style=for-the-badge&logo=calendar" alt="Duration"/>
+</div>
 
 </div>
 
