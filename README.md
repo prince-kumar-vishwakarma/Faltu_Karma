@@ -2,8 +2,6 @@
 
 # 🏠 UniHostel - Modern Hostel Management System
 
-<img src="frontend/src/components/assets/images/Logo.png" alt="UniHostel Logo" width="120" height="120" style="border-radius: 20px; margin-bottom: 20px;">
-
 [![MERN Stack](https://img.shields.io/badge/Stack-MERN-61DAFB?style=for-the-badge&logo=react&logoColor=white)](https://reactjs.org/)
 [![MongoDB](https://img.shields.io/badge/Database-MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://mongodb.com/)
 [![Express.js](https://img.shields.io/badge/Backend-Express.js-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
@@ -27,7 +25,6 @@
 - [📱 Screenshots](#-screenshots)
 - [🤝 Contributing](#-contributing)
 - [👥 Contributors](#-contributors)
-- [📄 License](#-license)
 - [📞 Contact & Support](#-contact--support)
 
 ---
