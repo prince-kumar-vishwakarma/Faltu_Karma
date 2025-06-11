@@ -95,7 +95,7 @@ UniHostel is a modern hostel management system that provides students with a uni
 <sub>v6.15.0</sub>
 </td>
 <td align="center" width="120">
-<img src="https://logodix.com/logo/1989638.png" width="48" height="48" alt="JWT"/>
+<img src="https://1.bp.blogspot.com/-9jhEkn_uApY/Xxx35kNQB1I/AAAAAAAAMKk/8Jrv75ClwUoh8bkUncTzOJIyH2rU6RkjQCLcBGAsYHQ/s1280/jwt.png" width="48" height="48" alt="JWT"/>
 <br/>
 <strong>JWT</strong>
 <br/>
