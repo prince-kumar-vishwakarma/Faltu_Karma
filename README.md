@@ -1,7 +1,8 @@
 <div align="center">
 
 # 🏠 UniHostel
-### *Modern Hostel Management System*
+
+### _Modern Hostel Management System_
 
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="60" height="60" alt="React" style="margin: 0 10px;"/>
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" width="60" height="60" alt="Node.js" style="margin: 0 10px;"/>
@@ -18,8 +19,8 @@
 <br/>
 
 > 🎯 **Revolutionizing student accommodation management with cutting-edge technology**
-> 
-> *A comprehensive, user-friendly platform that simplifies hostel operations and enhances student experience*
+>
+> _A comprehensive, user-friendly platform that simplifies hostel operations and enhances student experience_
 
 <br/>
 
@@ -36,7 +37,7 @@ git clone https://github.com/yourusername/unihostel.git
 # Backend setup
 cd backend && npm install && npm start
 
-# Frontend setup  
+# Frontend setup
 cd frontend && npm install && npm run dev
 
 # Access at http://localhost:5173
@@ -120,12 +121,14 @@ UniHostel transforms traditional hostel management into a **modern, digital expe
 <td width="50%">
 
 #### 📊 **Smart Dashboard**
+
 - 📈 Real-time accommodation overview
 - 🔔 Personalized notifications
 - ⚡ Quick action shortcuts
 - 📱 Mobile-responsive design
 
 #### 🏡 **Room Management**
+
 - 🛏️ Detailed room information
 - 👥 Roommate connectivity
 - 🔧 Amenity status tracking
@@ -135,12 +138,14 @@ UniHostel transforms traditional hostel management into a **modern, digital expe
 <td width="50%">
 
 #### 💳 **Payment Solutions**
+
 - 💰 Multiple payment gateways
 - 📊 Automated fee calculations
 - 📄 Digital receipt generation
 - 📈 Payment history tracking
 
 #### 🎫 **Service Hub**
+
 - 👤 Visitor management system
 - 📝 Leave application portal
 - 🏋️ Gym access requests
@@ -161,6 +166,7 @@ UniHostel transforms traditional hostel management into a **modern, digital expe
 <td width="50%">
 
 #### 🔧 **Complaint Portal**
+
 - 🎯 Priority-based issue tracking
 - 📸 Photo attachment support
 - ⏱️ Real-time progress updates
@@ -170,6 +176,7 @@ UniHostel transforms traditional hostel management into a **modern, digital expe
 <td width="50%">
 
 #### 👤 **Profile Management**
+
 - 🏫 Academic system integration
 - 🔐 Privacy control settings
 - 📁 Document management
@@ -347,17 +354,17 @@ npm install
 # Terminal 1 (Backend)
 cd backend && npm run dev
 
-# Terminal 2 (Frontend)  
+# Terminal 2 (Frontend)
 cd frontend && npm run dev
 ```
 
 ### 🌐 **Access Points**
 
-| Service | URL | Status |
-|---------|-----|--------|
-| 🎨 Frontend | `http://localhost:5173` | ✅ Development |
-| 🚀 Backend API | `http://localhost:5000` | ✅ Development |
-| 📊 Database | `mongodb://localhost:27017` | ✅ Local |
+| Service        | URL                         | Status         |
+| -------------- | --------------------------- | -------------- |
+| 🎨 Frontend    | `http://localhost:5173`     | ✅ Development |
+| 🚀 Backend API | `http://localhost:5000`     | ✅ Development |
+| 📊 Database    | `mongodb://localhost:27017` | ✅ Local       |
 
 ---
 
@@ -369,11 +376,11 @@ cd frontend && npm run dev
 
 </div>
 
-| Method | Endpoint | Description | Response |
-|--------|----------|-------------|----------|
+| Method | Endpoint                | Description          | Response                   |
+| ------ | ----------------------- | -------------------- | -------------------------- |
 | `POST` | `/api/v1/auth/register` | Student registration | `{ success, token, user }` |
-| `POST` | `/api/v1/auth/login` | Student login | `{ success, token, user }` |
-| `POST` | `/api/v1/auth/logout` | User logout | `{ success, message }` |
+| `POST` | `/api/v1/auth/login`    | Student login        | `{ success, token, user }` |
+| `POST` | `/api/v1/auth/logout`   | User logout          | `{ success, message }`     |
 
 <div align="center">
 
@@ -381,11 +388,11 @@ cd frontend && npm run dev
 
 </div>
 
-| Method | Endpoint | Description | Access |
-|--------|----------|-------------|---------|
-| `GET` | `/api/v1/students/profile/:id` | Get profile | Student |
-| `PUT` | `/api/v1/students/update/:id` | Update profile | Student |
-| `GET` | `/api/v1/students/dashboard` | Dashboard data | Student |
+| Method | Endpoint                       | Description    | Access  |
+| ------ | ------------------------------ | -------------- | ------- |
+| `GET`  | `/api/v1/students/profile/:id` | Get profile    | Student |
+| `PUT`  | `/api/v1/students/update/:id`  | Update profile | Student |
+| `GET`  | `/api/v1/students/dashboard`   | Dashboard data | Student |
 
 <div align="center">
 
@@ -393,11 +400,11 @@ cd frontend && npm run dev
 
 </div>
 
-| Method | Endpoint | Description | Access |
-|--------|----------|-------------|---------|
-| `GET` | `/api/v1/rooms/details/:id` | Room details | Student |
-| `POST` | `/api/v1/services/request` | Service request | Student |
-| `GET` | `/api/v1/services/status/:id` | Request status | Student |
+| Method | Endpoint                      | Description     | Access  |
+| ------ | ----------------------------- | --------------- | ------- |
+| `GET`  | `/api/v1/rooms/details/:id`   | Room details    | Student |
+| `POST` | `/api/v1/services/request`    | Service request | Student |
+| `GET`  | `/api/v1/services/status/:id` | Request status  | Student |
 
 ---
 
@@ -405,106 +412,106 @@ cd frontend && npm run dev
 
 <div align="center">
 
-### 🌟 *Building the future, one commit at a time*
+### 🌟 _Building the future, one commit at a time_
 
 <br/>
 
-<!-- Circular Team Layout -->
-<div style="position: relative; width: 450px; height: 450px; margin: 50px auto;">
-
-<!-- Center Project Logo -->
-<div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); text-align: center; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 90px; width: 180px; height: 180px; display: flex; flex-direction: column; justify-content: center; align-items: center; box-shadow: 0 20px 40px rgba(102, 126, 234, 0.3); border: 4px solid white;">
-<h2 style="color: white; margin: 0; font-size: 18px;">🏠 UniHostel</h2>
-<p style="color: #E0E7FF; margin: 8px 0 0 0; font-size: 13px; font-weight: 500;">Development Team</p>
-<div style="color: #FFD700; font-size: 16px; margin-top: 8px;">⭐⭐⭐⭐⭐</div>
-<div style="color: #E0E7FF; font-size: 11px; margin-top: 5px;">2 Weeks Sprint</div>
+<table align="center">
+<tr>
+<td align="center" width="200">
+<div>
+<img src="https://avatars.githubusercontent.com/prince-kumar-vishwakarma?v=4" width="120" height="120" style="border-radius: 60px; border: 4px solid #FFD700; box-shadow: 0 10px 30px rgba(255, 215, 0, 0.3);"/>
+<div style="position: relative; margin-top: -20px; margin-bottom: 10px;">
+<span style="background: #FFD700; color: #000; padding: 4px 8px; border-radius: 12px; font-size: 18px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">👑</span>
 </div>
-
-<!-- Prince Kumar - Team Lead (Top) -->
-<div style="position: absolute; top: 0; left: 50%; transform: translateX(-50%); text-align: center;">
-<div style="position: relative; background: white; border-radius: 70px; padding: 10px; box-shadow: 0 15px 30px rgba(255, 215, 0, 0.2);">
-<img src="https://avatars.githubusercontent.com/prince-kumar-vishwakarma?v=4" width="110" height="110" style="border-radius: 55px; border: 5px solid #FFD700; box-shadow: 0 8px 25px rgba(255, 215, 0, 0.4);"/>
-<div style="position: absolute; top: 5px; right: 5px; background: #FFD700; border-radius: 50%; width: 28px; height: 28px; display: flex; align-items: center; justify-content: center; font-size: 14px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">👑</div>
-</div>
-<h3 style="margin: 12px 0 4px 0; color: #FFD700; font-size: 15px; font-weight: 600;">Prince Kumar Vishwakarma</h3>
-<p style="margin: 0; color: #666; font-size: 12px; font-weight: 500;">🚀 Full-Stack Lead</p>
-<a href="https://github.com/prince-kumar-vishwakarma" style="text-decoration: none;">
-<img src="https://img.shields.io/badge/-Team%20Lead-FFD700?style=flat-square&logo=github&logoColor=white" alt="Lead" style="margin-top: 5px;"/>
+<h3 style="margin: 8px 0 4px 0; color: #FFD700; font-size: 16px; font-weight: 700;">Prince Kumar Vishwakarma</h3>
+<p style="margin: 0 0 8px 0; color: #666; font-size: 13px; font-weight: 500;">🚀 Full-Stack Team Lead</p>
+<a href="https://github.com/prince-kumar-vishwakarma">
+<img src="https://img.shields.io/badge/-Team%20Lead-FFD700?style=for-the-badge&logo=github&logoColor=black" alt="Team Lead"/>
 </a>
 </div>
-
-<!-- Pavan Kumar - Backend (Top Right) -->
-<div style="position: absolute; top: 12%; right: -5%; text-align: center;">
-<div style="background: white; border-radius: 60px; padding: 8px; box-shadow: 0 12px 25px rgba(16, 185, 129, 0.2);">
-<img src="https://avatars.githubusercontent.com/Pavan-Kumar-Vishwakarma?v=4" width="95" height="95" style="border-radius: 47px; border: 4px solid #10B981; box-shadow: 0 6px 20px rgba(16, 185, 129, 0.4);"/>
+</td>
+<td align="center" width="200">
+<div>
+<img src="https://avatars.githubusercontent.com/Pavan-Kumar-Vishwakarma?v=4" width="120" height="120" style="border-radius: 60px; border: 4px solid #10B981; box-shadow: 0 10px 30px rgba(16, 185, 129, 0.3);"/>
+<div style="margin: 15px 0 10px 0;">
+<span style="background: #10B981; color: white; padding: 4px 8px; border-radius: 12px; font-size: 16px;">⚙️</span>
 </div>
-<h4 style="margin: 10px 0 3px 0; color: #10B981; font-size: 14px; font-weight: 600;">Pavan Kumar</h4>
-<p style="margin: 0; color: #666; font-size: 11px;">⚙️ Backend Expert</p>
-<a href="https://github.com/Pavan-Kumar-Vishwakarma" style="text-decoration: none;">
-<img src="https://img.shields.io/badge/-Backend-10B981?style=flat-square&logo=node.js&logoColor=white" alt="Backend" style="margin-top: 4px;"/>
+<h3 style="margin: 8px 0 4px 0; color: #10B981; font-size: 16px; font-weight: 700;">Pavan Kumar</h3>
+<p style="margin: 0 0 8px 0; color: #666; font-size: 13px; font-weight: 500;">⚙️ Backend Expert</p>
+<a href="https://github.com/Pavan-Kumar-Vishwakarma">
+<img src="https://img.shields.io/badge/-Backend-10B981?style=for-the-badge&logo=node.js&logoColor=white" alt="Backend"/>
 </a>
 </div>
-
-<!-- Abhishek - UI/UX (Bottom Right) -->
-<div style="position: absolute; bottom: 12%; right: -5%; text-align: center;">
-<div style="background: white; border-radius: 60px; padding: 8px; box-shadow: 0 12px 25px rgba(59, 130, 246, 0.2);">
-<img src="https://avatars.githubusercontent.com/Abhishek12890551?v=4" width="95" height="95" style="border-radius: 47px; border: 4px solid #3B82F6; box-shadow: 0 6px 20px rgba(59, 130, 246, 0.4);"/>
+</td>
+<td align="center" width="200">
+<div>
+<img src="https://avatars.githubusercontent.com/Abhishek12890551?v=4" width="120" height="120" style="border-radius: 60px; border: 4px solid #3B82F6; box-shadow: 0 10px 30px rgba(59, 130, 246, 0.3);"/>
+<div style="margin: 15px 0 10px 0;">
+<span style="background: #3B82F6; color: white; padding: 4px 8px; border-radius: 12px; font-size: 16px;">🎨</span>
 </div>
-<h4 style="margin: 10px 0 3px 0; color: #3B82F6; font-size: 14px; font-weight: 600;">Abhishek</h4>
-<p style="margin: 0; color: #666; font-size: 11px;">🎨 UI/UX Designer</p>
-<a href="https://github.com/Abhishek12890551" style="text-decoration: none;">
-<img src="https://img.shields.io/badge/-Designer-3B82F6?style=flat-square&logo=figma&logoColor=white" alt="Designer" style="margin-top: 4px;"/>
+<h3 style="margin: 8px 0 4px 0; color: #3B82F6; font-size: 16px; font-weight: 700;">Abhishek</h3>
+<p style="margin: 0 0 8px 0; color: #666; font-size: 13px; font-weight: 500;">🎨 UI/UX Designer</p>
+<a href="https://github.com/Abhishek12890551">
+<img src="https://img.shields.io/badge/-Designer-3B82F6?style=for-the-badge&logo=figma&logoColor=white" alt="Designer"/>
 </a>
 </div>
-
-<!-- Jayantika - Frontend (Bottom Left) -->
-<div style="position: absolute; bottom: 12%; left: -5%; text-align: center;">
-<div style="background: white; border-radius: 60px; padding: 8px; box-shadow: 0 12px 25px rgba(245, 158, 11, 0.2);">
-<img src="https://avatars.githubusercontent.com/u/147483927?v=4" width="95" height="95" style="border-radius: 47px; border: 4px solid #F59E0B; box-shadow: 0 6px 20px rgba(245, 158, 11, 0.4);"/>
+</td>
+<td align="center" width="200">
+<div>
+<img src="https://avatars.githubusercontent.com/u/147483927?v=4" width="120" height="120" style="border-radius: 60px; border: 4px solid #F59E0B; box-shadow: 0 10px 30px rgba(245, 158, 11, 0.3);"/>
+<div style="margin: 15px 0 10px 0;">
+<span style="background: #F59E0B; color: white; padding: 4px 8px; border-radius: 12px; font-size: 16px;">⚛️</span>
 </div>
-<h4 style="margin: 10px 0 3px 0; color: #F59E0B; font-size: 14px; font-weight: 600;">Jayantika Pratik</h4>
-<p style="margin: 0; color: #666; font-size: 11px;">⚛️ React Developer</p>
-<a href="https://github.com/jayantikapratik" style="text-decoration: none;">
-<img src="https://img.shields.io/badge/-React-F59E0B?style=flat-square&logo=react&logoColor=white" alt="React" style="margin-top: 4px;"/>
+<h3 style="margin: 8px 0 4px 0; color: #F59E0B; font-size: 16px; font-weight: 700;">Jayantika Pratik</h3>
+<p style="margin: 0 0 8px 0; color: #666; font-size: 13px; font-weight: 500;">⚛️ React Developer</p>
+<a href="https://github.com/jayantikapratik">
+<img src="https://img.shields.io/badge/-React-F59E0B?style=for-the-badge&logo=react&logoColor=white" alt="React"/>
 </a>
 </div>
-
-<!-- Muskan - Frontend (Top Left) -->
-<div style="position: absolute; top: 12%; left: -5%; text-align: center;">
-<div style="background: white; border-radius: 60px; padding: 8px; box-shadow: 0 12px 25px rgba(239, 68, 68, 0.2);">
-<img src="https://avatars.githubusercontent.com/muskankumari82672?v=4" width="95" height="95" style="border-radius: 47px; border: 4px solid #EF4444; box-shadow: 0 6px 20px rgba(239, 68, 68, 0.4);"/>
+</td>
+<td align="center" width="200">
+<div>
+<img src="https://avatars.githubusercontent.com/muskankumari82672?v=4" width="120" height="120" style="border-radius: 60px; border: 4px solid #EF4444; box-shadow: 0 10px 30px rgba(239, 68, 68, 0.3);"/>
+<div style="margin: 15px 0 10px 0;">
+<span style="background: #EF4444; color: white; padding: 4px 8px; border-radius: 12px; font-size: 16px;">💫</span>
 </div>
-<h4 style="margin: 10px 0 3px 0; color: #EF4444; font-size: 14px; font-weight: 600;">Muskan Kumari</h4>
-<p style="margin: 0; color: #666; font-size: 11px;">💫 Frontend Developer</p>
-<a href="https://github.com/muskankumari82672" style="text-decoration: none;">
-<img src="https://img.shields.io/badge/-Frontend-EF4444?style=flat-square&logo=javascript&logoColor=white" alt="Frontend" style="margin-top: 4px;"/>
+<h3 style="margin: 8px 0 4px 0; color: #EF4444; font-size: 16px; font-weight: 700;">Muskan Kumari</h3>
+<p style="margin: 0 0 8px 0; color: #666; font-size: 13px; font-weight: 500;">💫 Frontend Developer</p>
+<a href="https://github.com/muskankumari82672">
+<img src="https://img.shields.io/badge/-Frontend-EF4444?style=for-the-badge&logo=javascript&logoColor=white" alt="Frontend"/>
 </a>
 </div>
-
-</div>
+</td>
+</tr>
+</table>
 
 <br/>
 
 ### 📊 **Team Achievements**
 
-<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 20px; padding: 30px; margin: 40px auto; max-width: 800px; color: white; text-align: center;">
-<div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
-<div style="text-align: center;">
-<h3 style="margin: 0; font-size: 24px; color: #FFD700;">5</h3>
-<p style="margin: 5px 0 0 0; font-size: 12px;">👥 Developers</p>
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 20px; padding: 30px; margin: 40px auto; max-width: 900px; color: white; text-align: center;">
+<div style="display: flex; justify-content: center; gap: 40px; flex-wrap: wrap;">
+<div style="text-align: center; min-width: 120px;">
+<h3 style="margin: 0; font-size: 32px; color: #FFD700; font-weight: 800;">5</h3>
+<p style="margin: 8px 0 0 0; font-size: 14px; color: #E0E7FF; font-weight: 500;">👥 Talented Developers</p>
 </div>
-<div style="text-align: center;">
-<h3 style="margin: 0; font-size: 24px; color: #10B981;">2</h3>
-<p style="margin: 5px 0 0 0; font-size: 12px;">⏱️ Weeks</p>
+<div style="text-align: center; min-width: 120px;">
+<h3 style="margin: 0; font-size: 32px; color: #10B981; font-weight: 800;">2</h3>
+<p style="margin: 8px 0 0 0; font-size: 14px; color: #E0E7FF; font-weight: 500;">⏱️ Intensive Weeks</p>
 </div>
-<div style="text-align: center;">
-<h3 style="margin: 0; font-size: 24px; color: #3B82F6;">25K+</h3>
-<p style="margin: 5px 0 0 0; font-size: 12px;">💻 Lines of Code</p>
+<div style="text-align: center; min-width: 120px;">
+<h3 style="margin: 0; font-size: 32px; color: #3B82F6; font-weight: 800;">25K+</h3>
+<p style="margin: 8px 0 0 0; font-size: 14px; color: #E0E7FF; font-weight: 500;">💻 Lines of Code</p>
 </div>
-<div style="text-align: center;">
-<h3 style="margin: 0; font-size: 24px; color: #F59E0B;">15+</h3>
-<p style="margin: 5px 0 0 0; font-size: 12px;">🚀 Features</p>
+<div style="text-align: center; min-width: 120px;">
+<h3 style="margin: 0; font-size: 32px; color: #F59E0B; font-weight: 800;">15+</h3>
+<p style="margin: 8px 0 0 0; font-size: 14px; color: #E0E7FF; font-weight: 500;">🚀 Amazing Features</p>
 </div>
+</div>
+<div style="margin-top: 25px; padding: 20px; background: rgba(255,255,255,0.1); border-radius: 15px;">
+<p style="margin: 0; font-size: 16px; color: #E0E7FF; font-style: italic;">"Collaboration is the key to innovation. Together, we build the future of hostel management!"</p>
+<p style="margin: 8px 0 0 0; font-size: 14px; color: #FFD700; font-weight: 600;">- Team Access Denied</p>
 </div>
 </div>
 
@@ -520,7 +527,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 **Built with ❤️ by Team Access Denied**
 
-*Making hostel management simple, efficient, and modern.*
+_Making hostel management simple, efficient, and modern._
 
 <br/>
 
