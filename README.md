@@ -452,8 +452,6 @@ cd frontend && npm run dev
 </tr>
 </table>
 
-<br/>
-
 <!-- Team Details Section -->
 <table align="center">
 <tr>
